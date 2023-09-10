@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,300,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- icon -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+
+
+<section class="dashboard-container d-flex">
+    <aside class="lernia-menu">
+        <div class="menu-wrap">
+            <header>
+                <div class="ler-logo">
+                    <a href="#" class="d-inblock"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+            </header>
+            <nav>
+                <ul class="none-default">
+                    <li class="menu--active"><a href="#"><span class="material-symbols-rounded ler__icon"> grid_view </span>  Overview</a></li>
+                    <li><a href="#"><span class="material-symbols-rounded ler__icon"> description </span>  Assisment</a></li>
+                    <li><a href="#" class="d-flex align-center"><span class="material-symbols-rounded ler__icon"> donut_small </span> <span class="menu_name"> Reports </span><span class="ler__badge badge__red ml-auto"> 24 </span></a> </li>
+                    <li><a href="#"><span class="material-symbols-rounded ler__icon"> folder </span>  File Storage</a></li>
+                    <li><a href="#" class="d-flex align-center"><span class="material-symbols-rounded ler__icon"> chat </span> <span class="menu_name"> Message </span><span class="ler__badge badge__red ml-auto"> 4 </span></a> </li>
+                    <li><a href="#"><span class="material-symbols-rounded ler__icon"> settings </span>  Settings</a></li>
+                </ul>
+            </nav>
+            <section class="premium-container">
+                <div class="premium-content text-center">
+                    <img src="./img/premium.png" alt="Premium img">
+                    <h3 class="mt-0">Get Premium now!</h3>
+                    <p class="text-muted">Reach out special feature by subscribe our package</p>
+                    <button class="btn btn--teal btn--filled">Subscribe</button>
+                </div>
+            </section>
+        </div>
+    </aside>
+
+
+    <main class="lernia-main-container">
+        <section class="lernia-main-header ">
+            <div class="d-flex align-center gapy-1">
+                <div class="lernia-header-content mr-auto">
+                    <h1>Hello Iniesta <span class="material-symbols-rounded ler__icon text-yellow"> waving_hand </span></h1>
+                    <label class="text-muted">Let's learn something new today!</label>
+                </div>
+                <div class="lernia-main-search pos-rel">
+                    <input type="text" id="search-sags" placeholder="Search anything here...">
+                    <span class="material-symbols-rounded ler__icon"> search </span>
+                </div>
+                <div class="lernia-notification">
+                    <button class="ler__iconbtn ler__msg pos-rel" id="lernia-notification"> <span class="material-symbols-rounded ler__icon "> notifications </span></button>
+                </div>
+                <div class="lernia-profile" id="profileIcon">
+                    <img src="./img/user1.png" alt="profile" width="40">
+                </div>
+            </div>
+        </section>
+
+        <section class="lernia-summaryblocks">
+            <div class="d-flex flex-wrap">
+                <div class="col-4 col">
+                    <div class="summaryblocks-container bg--lightblue">
+                        <div class="summaryblocks--icon">
+                            <span class="material-symbols-rounded ler__icon dark-blue"> event_upcoming </span>
+                        </div>
+                        <strong class="summaryblocks--title">Basic: HTML and CSS</strong>
+                        <div class="summaryblocks-details">
+                            <ul class="d-flex align-center none-default">
+                                <li><span class="material-symbols-rounded ler__icon"> menu_book </span> 24</li>
+                                <li><span class="material-symbols-rounded ler__icon"> assignment_turned_in </span> 8</li>
+                                <li><span class="material-symbols-rounded ler__icon"> supervisor_account </span> 99</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col">
+                    <div class="summaryblocks-container bg--lightred">
+                        <div class="summaryblocks--icon">
+                            <span class="material-symbols-rounded ler__icon dark-red"> shape_line </span>
+                        </div>
+                        <strong class="summaryblocks--title">Design Branding</strong>
+                        <div class="summaryblocks-details">
+                            <ul class="d-flex align-center none-default">
+                                <li><span class="material-symbols-rounded ler__icon"> menu_book </span> 12</li>
+                                <li><span class="material-symbols-rounded ler__icon"> assignment_turned_in </span> 5</li>
+                                <li><span class="material-symbols-rounded ler__icon"> supervisor_account </span> 45</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col">
+                    <div class="summaryblocks-container bg--lightgreen">
+                        <div class="summaryblocks--icon">
+                            <span class="material-symbols-rounded ler__icon dark-green"> insights </span>
+                        </div>
+                        <strong class="summaryblocks--title">Digital SEO Marketing</strong>
+                        <div class="summaryblocks-details">
+                            <ul class="d-flex align-center none-default">
+                                <li><span class="material-symbols-rounded ler__icon"> menu_book </span> 9</li>
+                                <li><span class="material-symbols-rounded ler__icon"> assignment_turned_in </span> 12</li>
+                                <li><span class="material-symbols-rounded ler__icon"> supervisor_account </span> 56</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lernia-charts-container">
+            <div class="d-flex flex-wrap">
+                <div class="col col-7 barChart">
+                    <div class="lernia-barchart">
+                        <h2 class="lernia-title">Hours Spent</h2>
+                    </div>
+                    <div class="charts-container">
+                        <div class="d-flex align-center charts-header gapy-1">
+                            <div class="charts--title">
+                                <label><span class="lerchart__box bg__lightorange"></span> Study</label>
+                            </div>
+                            <div class="charts--title">
+                                <label><span class="lerchart__box bg__orange"></span> Exams</label>
+                            </div>
+                            <button class="btn btn--dropdown ml-auto">Monthly <span class="material-symbols-rounded ler__icon"> keyboard_arrow_down </span> </button>
+                        </div>
+                        <div class="charts-body text-center">
+                            <canvas id="barChartContainer" style="width:100%;max-width:600px"></canvas>
+
+                            <!-- <div class="col col-2 hoursLabel">
+                                <ul class="none-default">
+                                    <li>80 Hr</li>
+                                    <li>60 Hr</li>
+                                    <li>40 Hr</li>
+                                    <li>20 Hr</li>
+                                    <li>0 Hr</li>
+                                </ul>
+                            </div>
+                            <div class="col col-2 bars-months">
+                                <div class="bar bar__60hr"><span class="bar__fill bar__50"></span></div>
+                                <label class="m-0">Jan</label>
+                            </div>
+                            <div class="col col-2 bars-months">
+                                <div class="bar bar__40hr"><span class="bar__fill bar__30"></span></div>
+                                <label class="m-0">Feb</label>
+                            </div>
+                            <div class="col col-2 bars-months">
+                                <div class="bar bar__70hr"><span class="bar__fill bar__90"></span></div>
+                                <label class="m-0">Mar</label>
+                            </div>
+                            <div class="col col-2 bars-months">
+                                <div class="bar bar__50hr"><span class="bar__fill bar__50"></span></div>
+                                <label class="m-0">Apr</label>
+                            </div>
+                            <div class="col col-2 bars-months">
+                                <div class="bar bar__20hr"><span class="bar__fill bar__70"></span></div>
+                                <label class="m-0">May</label>
+                            </div> -->
+                        </div> 
+                    </div>
+                </div>
+                <div class="col col-5 speedoMeterChart">
+                    <div class="lernia-barchart">
+                        <h2 class="lernia-title">Performence</h2>
+                    </div>
+                    <div class="charts-container">
+                        <div class="d-flex align-center charts-header gapy-1">
+                            <div class="charts--title">
+                                <label><span class="lerchart__box bg__teal"></span> Point Progress</label>
+                            </div>
+                            <button class="btn btn--dropdown ml-auto">Monthly <span class="material-symbols-rounded ler__icon"> keyboard_arrow_down </span> </button>
+                        </div>
+                        <div class="charts-body text-center">
+                            <canvas id="gaugeChart"></canvas>
+                            <div class="chart_caption">
+                                <p class="caption">Your Point : <span class="gaugeValue">8.966</span></p>
+                                <p class="text-teal">5th in Leaderboard</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="lernia-table-container">
+            <h2 class="lernia-title">Hours Spent</h2>
+            <div class="lernia-table">
+                
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>RANK</th>
+                            <th>NAME</th>
+                            <th>COURSE </th>
+                            <th>HOUR </th>
+                            <th>POINT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="serialNumber">1</span><span class="material-symbols-rounded ler__icon text-teal"> arrow_drop_up </span> </td>
+                            <td class="tableAuthors"><img src="./img/user1.png" width="30" alt="person"> Charles Puyol Capitano</td>
+                            <td>53</td>
+                            <td>250</td>
+                            <td class="text-teal">13.450</td>
+                        </tr>
+                        <tr>
+                            <td><span class="serialNumber">2</span><span class="material-symbols-rounded ler__icon text-red"> arrow_drop_down </span></td>
+                            <td class="tableAuthors"><img src="./img/user2.png" width="30" alt="person"> Alexandra Morgan</td>
+                            <td>88</td>
+                            <td>212</td>
+                            <td class="text-teal">10.333</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </section>
+
+    </main>
+    <div class="profile-section">
+        <aside class="right-profile">
+            <div class="profile-nameEdit d-flex justify-between ">
+                <h3 class="mb-0">Profile</h3>
+                <div class="profile-edit">
+                    <button class="ler__iconbtn" id="lernia-profile"> <span class="material-symbols-rounded ler__icon "> edit_square </span></button>
+                </div>
+            </div>
+            <div class="profile-design text-center">
+                <div class="profile-container">
+                    <img src="./img/user1.png" alt="profile" width="70">
+                </div>
+                <p class="userName">Andreas iniesta  <span class="material-symbols-rounded ler__icon text-primary verified"> verified_user </span></p>
+                <span class="text-muted">Collage Student</span>
+            </div>
+            <div class="profile-calender">
+                <div class="calender-title d-flex align-center justify-between">
+                    <span class="material-symbols-rounded ler__icon"> chevron_left </span>
+                    <strong>December 2021</strong>
+                    <span class="material-symbols-rounded ler__icon"> chevron_right </span>
+                </div>
+                <div class="d-flex calender-number text-center">
+                    <div class="weekdays">
+                        <p class="text-muted">M</p>
+                        <span class="day">24</span>
+                    </div>
+                    <div class="weekdays activeDay">
+                        <p class="text-muted">T</p>
+                        <span class="day">25</span>
+                    </div>
+                    <div class="weekdays">
+                        <p class="text-muted">W</p>
+                        <span class="day">26</span>
+                    </div>
+                    <div class="weekdays">
+                        <p class="text-muted">T</p>
+                        <span class="day">27</span>
+                    </div>
+                    <div class="weekdays">
+                        <p class="text-muted">F</p>
+                        <span class="day">28</span>
+                    </div>
+                    <div class="weekdays">
+                        <p class="text-muted">S</p>
+                        <span class="day">29</span>
+                    </div>
+                    <div class="weekdays">
+                        <p class="text-muted">S</p>
+                        <span class="day">30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-todolist">
+                <h3>To Do List</h3>
+                <ul class="todolist-task none-default">
+                    <li class="task d-flex">
+                        <input type="checkbox" id="task1" name="task">
+                        <div class="task-name">
+                            <label for="task1">Developing Restaurant Apps</label>
+                            <small class="m-0 text-muted d-inline-block">Programming | <span class="text-orange">08:00 AM</span></small>
+                            <ul class="none-default sub-tasklist">
+                                <li class="sub-task d-flex">
+                                    <input type="checkbox" id="subtask1" name="task">
+                                    <div class="task-name">
+                                        <label for="subtask1">Integrate API</label>
+                                    </div>
+                                </li>
+                                <li class="sub-task d-flex">
+                                    <input type="checkbox" id="subtask2" name="task">
+                                    <div class="task-name">
+                                        <label for="subtask2">Slicing Home Screen</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="task d-flex">
+                        <input type="checkbox" id="task2" name="task">
+                        <div class="task-name">
+                            <label for="task2">Research Objective User</label>
+                            <small class="m-0 text-muted d-inline-block">Product Design | <span class="text-orange">02:40 PM</span></small>
+                        </div>
+                    </li>
+                    <li class="task d-flex">
+                        <input type="checkbox" id="task3" name="task" checked>
+                        <div class="task-name">
+                            <label for="task3">Report Analysist P2P Business</label>
+                            <small class="m-0 text-muted d-inline-block">Business | <span class="text-orange">04:50 PM</span></small>
+                        </div>
+                    </li>
+                    <li class="task d-flex">
+                        <input type="checkbox" id="task4" name="task">
+                        <div class="task-name">
+                            <label for="task4">Testing Application</label>
+                            <small class="m-0 text-muted d-inline-block">Application | <span class="text-orange">06:10 PM</span></small>
+                        </div>
+                    </li>
+                    <li class="task d-flex">
+                        <input type="checkbox" id="task5" name="task" checked>
+                        <div class="task-name">
+                            <label for="task5">Checking Reports</label>
+                            <small class="m-0 text-muted d-inline-block">Reports | <span class="text-orange">02:50 AM</span></small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</section>
+    
+
+<script src="./js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://unpkg.com/chart.js@2.8.0/dist/Chart.bundle.js"></script>
+<script src="https://unpkg.com/chartjs-gauge@0.3.0/dist/chartjs-gauge.js"></script>
+
+<script src="./js/custom.js"></script>
+
+
+
+
+</body>
+</html>
